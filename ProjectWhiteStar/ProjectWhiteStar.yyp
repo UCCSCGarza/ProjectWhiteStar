@@ -25,12 +25,20 @@
   },
   "name":"ProjectWhiteStar",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_AreaObject","path":"objects/obj_AreaObject/obj_AreaObject.yy",},},
+    {"id":{"name":"obj_captain","path":"objects/obj_captain/obj_captain.yy",},},
+    {"id":{"name":"obj_engineer","path":"objects/obj_engineer/obj_engineer.yy",},},
+    {"id":{"name":"obj_GameController","path":"objects/obj_GameController/obj_GameController.yy",},},
+    {"id":{"name":"obj_rich","path":"objects/obj_rich/obj_rich.yy",},},
+    {"id":{"name":"obj_schematic","path":"objects/obj_schematic/obj_schematic.yy",},},
+    {"id":{"name":"obj_stowaway","path":"objects/obj_stowaway/obj_stowaway.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
