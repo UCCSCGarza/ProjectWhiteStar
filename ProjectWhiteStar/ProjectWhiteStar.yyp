@@ -25,6 +25,7 @@
   },
   "name":"ProjectWhiteStar",
   "resources":[
+    {"id":{"name":"font_dialogue","path":"fonts/font_dialogue/font_dialogue.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
