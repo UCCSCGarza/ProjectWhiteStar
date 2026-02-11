@@ -26,6 +26,7 @@
   "name":"ProjectWhiteStar",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_ship_map","path":"sprites/spr_ship_map/spr_ship_map.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
