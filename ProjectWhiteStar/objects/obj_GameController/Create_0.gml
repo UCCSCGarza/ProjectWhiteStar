@@ -13,14 +13,14 @@ map_open = false;
 map_sprite = spr_minimap_ship;
 map_scale = 0.35;
 
-// Calculate minimap size first
-map_w = sprite_get_width(map_sprite) * map_scale;
-map_h = sprite_get_height(map_sprite) * map_scale;
+// Use sprite dimensions, not scaled
+var map_w = sprite_get_width(map_sprite);
+var map_h = sprite_get_height(map_sprite);
 
-// Now define button positions relative to minimap
 map_buttons = [
-    { name: "captain", x: map_w - 40, y: 20 },        // top-right
-    { name: "hidden",  x: 20,       y: 20 },          // top-left
-    { name: "boiler",  x: map_w - 40, y: map_h - 40 },// bottom-right
-    { name: "dining",  x: 20,       y: map_h - 40 }   // bottom-left
+    { name: "captain", x: map_w - 40, y: 40 },  // top-right
+    { name: "hidden",  x: 40,       y: 40 },    // top-left
+    { name: "boiler",  x: map_w - 40, y: map_h - 40 }, // bottom-right
+    { name: "dining",  x: 40,       y: map_h - 40 }    // bottom-left
 ];
+

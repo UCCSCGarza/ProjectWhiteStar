@@ -60,7 +60,7 @@ function load_area(area_name)
                 background_sprite = spr_hidden;
             }
 
-            instance_create_layer(600, 350, "Instances", obj_Stowaway);
+            instance_create_layer(600, 350, "Instances", obj_stowaway);
         break;
     }
 }
