@@ -31,14 +31,12 @@ function load_area(area_name)
             }
 
             instance_create_layer(600, 350, "Instances", obj_captain);
-			/*
             // Only spawn schematic if clues unlocked
             if (global.clues.hull_number_mismatch
             && global.clues.stowaway_saw_switch)
             {
                 instance_create_layer(850, 420, "Instances", obj_schematic);
             }
-			*/
         break;
 
 
