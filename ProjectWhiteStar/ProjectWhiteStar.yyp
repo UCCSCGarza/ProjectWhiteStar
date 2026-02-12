@@ -40,8 +40,6 @@
     {"id":{"name":"spr_captain","path":"sprites/spr_captain/spr_captain.yy",},},
     {"id":{"name":"spr_dining","path":"sprites/spr_dining/spr_dining.yy",},},
     {"id":{"name":"spr_hidden","path":"sprites/spr_hidden/spr_hidden.yy",},},
-    {"id":{"name":"font_dialogue","path":"fonts/font_dialogue/font_dialogue.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
