@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_ship_map",
+  "%Name":"spr_crazy_girl",
   "bboxMode":0,
-  "bbox_bottom":1023,
-  "bbox_left":0,
-  "bbox_right":1023,
-  "bbox_top":0,
+  "bbox_bottom":126,
+  "bbox_left":2,
+  "bbox_right":88,
+  "bbox_top":27,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9c1539ee-9b2c-472e-b0d8-5613a6e89c61","name":"9c1539ee-9b2c-472e-b0d8-5613a6e89c61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eee6716a-7bc0-4374-a477-c3e166c57707","name":"eee6716a-7bc0-4374-a477-c3e166c57707","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1024,
+  "height":127,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f534e07a-751c-4a73-bd38-032ca496f5f2","blendMode":0,"displayName":"default","isLocked":false,"name":"f534e07a-751c-4a73-bd38-032ca496f5f2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fc902429-3e4a-4d4d-a7ba-dc9b1f62cccb","blendMode":0,"displayName":"default","isLocked":false,"name":"fc902429-3e4a-4d4d-a7ba-dc9b1f62cccb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_ship_map",
+  "name":"spr_crazy_girl",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_ship_map",
+    "%Name":"spr_crazy_girl",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_ship_map",
+    "name":"spr_crazy_girl",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c1539ee-9b2c-472e-b0d8-5613a6e89c61","path":"sprites/spr_ship_map/spr_ship_map.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bfe53c0e-ad98-4207-ace8-ef1f4e42e7e1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eee6716a-7bc0-4374-a477-c3e166c57707","path":"sprites/spr_crazy_girl/spr_crazy_girl.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a3bc1561-3c99-4789-842d-2b87019aa01d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1024,
+  "width":96,
 }
