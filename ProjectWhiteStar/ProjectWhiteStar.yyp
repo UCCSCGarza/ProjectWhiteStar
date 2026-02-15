@@ -35,6 +35,7 @@
     {"id":{"name":"scr_make_choice","path":"scripts/scr_make_choice/scr_make_choice.yy",},},
     {"id":{"name":"scr_start_convo","path":"scripts/scr_start_convo/scr_start_convo.yy",},},
     {"id":{"name":"spr_crazy_girl","path":"sprites/spr_crazy_girl/spr_crazy_girl.yy",},},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
