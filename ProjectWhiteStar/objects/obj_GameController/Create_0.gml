@@ -1,6 +1,7 @@
 // Game state
 global.has_schematic = false;
 global.player_alive = true;
+global.journal = false;
 
 // Current room
 global.current_area = "boiler";
@@ -11,6 +12,8 @@ global.clues = {
     hull_number_mismatch: false,
     stowaway_saw_switch: false
 };
+
+audio_play_sound(snd_mainmusic, 1, true);
 
 // Minimap
 map_open = false;

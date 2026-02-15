@@ -42,3 +42,16 @@ if (map_open && mouse_check_button_pressed(mb_left)) {
         }
     }
 }
+
+if(keyboard_check_pressed(ord("J")))
+{
+	if(global.journal){
+		
+		global.journal = false;
+		
+	} else {
+		
+		global.journal = true;
+		
+	}
+}

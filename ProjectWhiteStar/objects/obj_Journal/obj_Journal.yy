@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_GameController",
+  "%Name":"obj_Journal",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_GameController",
+  "name":"obj_Journal",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Controllers",
-    "path":"folders/Objects/Game Controllers.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Journal",
+    "path":"sprites/spr_Journal/spr_Journal.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
