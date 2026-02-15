@@ -2,7 +2,7 @@
 draw_sprite(sprite_index, 0, x, y);
 
 // Draw outline if hovered and afar
-if (hovered && state == "afar") {
+if (hovered && state == "afar" && global.conversation == false) {
     draw_set_color(c_yellow);
     draw_set_alpha(0.5);
     

@@ -1,6 +1,7 @@
 function load_area(area_name)
 {
     global.current_area = area_name;
+	global.conversation = false;
 
     // Destroy old NPCs & interactables
     with (obj_AreaObject) instance_destroy();
@@ -50,23 +51,29 @@ function load_area(area_name)
             bg3.background_sprite = spr_dining;
 
             var npc3 = instance_create_depth(500, 350, npc_depth, obj_rich);
+			var npc4 = instance_create_depth(832, 320, npc_depth, obj_richwife);
             npc3.sprite_index = spr_RichRitchOneAfar;
             npc3.state      = "afar";
-            npc3.x_default  = 500;
+            npc3.x_default  = 300;
             npc3.y_afar     = 325;
             npc3.y_close    = 370;
+			npc4.sprite_index = spr_RichRitchOneAfar;
+            npc4.state      = "afar";
+            npc4.x_default  = 700;
+            npc4.y_afar     = 325;
+            npc4.y_close    = 370;
         break;
 
         case "hidden":
             var bg4 = instance_create_layer(0, 0, "Backgrounds", obj_Background);
             bg4.background_sprite = spr_hidden;
 
-            var npc4 = instance_create_depth(480, 300, npc_depth, obj_stowaway);
-            npc4.sprite_index = spr_CrazyGirlAfar;
-            npc4.state      = "afar";
-            npc4.x_default  = 480;
-            npc4.y_afar     = 300;
-            npc4.y_close    = 320;
+            var npc5 = instance_create_depth(480, 300, npc_depth, obj_stowaway);
+            npc5.sprite_index = spr_CrazyGirlAfar;
+            npc5.state      = "afar";
+            npc5.x_default  = 480;
+            npc5.y_afar     = 300;
+            npc5.y_close    = 320;
         break;
     }
 }

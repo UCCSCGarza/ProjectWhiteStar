@@ -1,10 +1,10 @@
 /// --- Swap sprite & update position based on state
 if (state == "afar") {
-    sprite_index = spr_RichRitchOneAfar; 
+    sprite_index = spr_RichRitchTwoAfar; 
     x = x_default;
     y = y_afar;
 } else if (state == "close") {
-    sprite_index = spr_RichRitchOne;  
+    sprite_index = spr_RichRitchTwo;  
     x = x_default;
     y = y_close;
 }

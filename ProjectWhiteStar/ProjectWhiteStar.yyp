@@ -38,6 +38,7 @@
     {"id":{"name":"obj_Journal","path":"objects/obj_Journal/obj_Journal.yy",},},
     {"id":{"name":"obj_minimap_button","path":"objects/obj_minimap_button/obj_minimap_button.yy",},},
     {"id":{"name":"obj_rich","path":"objects/obj_rich/obj_rich.yy",},},
+    {"id":{"name":"obj_richwife","path":"objects/obj_richwife/obj_richwife.yy",},},
     {"id":{"name":"obj_schematic","path":"objects/obj_schematic/obj_schematic.yy",},},
     {"id":{"name":"obj_stowaway","path":"objects/obj_stowaway/obj_stowaway.yy",},},
     {"id":{"name":"obj_UI","path":"objects/obj_UI/obj_UI.yy",},},

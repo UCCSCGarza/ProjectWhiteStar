@@ -19,12 +19,14 @@ hovered = point_in_rectangle(
 );
 
 /// --- Click detection to switch to "close"
-if (state == "afar" && hovered && mouse_check_button_pressed(mb_left)) {
+if (state == "afar" && hovered && mouse_check_button_pressed(mb_left) && global.conversation == false) {
     state = "close";
-    // TODO: open dialogue box here later
+	global.conversation = true;
 }
 
 /// --- Return to afar (simulate end of dialogue)
-if (state == "close" && keyboard_check_pressed(vk_escape)) {
+if (state == "close" && keyboard_check_pressed(vk_escape) && global.conversation == true) {
     state = "afar";
+	global.conversation = false;
 }
+
