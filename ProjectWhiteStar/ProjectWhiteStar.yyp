@@ -28,7 +28,7 @@
   "resources":[
     {"id":{"name":"obj_convo_controller","path":"objects/obj_convo_controller/obj_convo_controller.yy",},},
     {"id":{"name":"obj_crazygirl_convo","path":"objects/obj_crazygirl_convo/obj_crazygirl_convo.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"scr_apply_choice","path":"scripts/scr_apply_choice/scr_apply_choice.yy",},},
     {"id":{"name":"scr_crazygirl_dialogue","path":"scripts/scr_crazygirl_dialogue/scr_crazygirl_dialogue.yy",},},
     {"id":{"name":"scr_dialogue","path":"scripts/scr_dialogue/scr_dialogue.yy",},},
@@ -40,7 +40,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
