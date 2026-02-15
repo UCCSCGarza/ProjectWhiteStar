@@ -1,0 +1,30 @@
+/// --- Swap sprite & update position based on state
+if (state == "afar") {
+    sprite_index = spr_RichRitchOneAfar; 
+    x = x_default;
+    y = y_afar;
+} else if (state == "close") {
+    sprite_index = spr_RichRitchOne;  
+    x = x_default;
+    y = y_close;
+}
+
+/// --- Hover detection
+hovered = point_in_rectangle(
+    mouse_x, mouse_y,
+    x - sprite_get_width(sprite_index)/2,
+    y - sprite_get_height(sprite_index)/2,
+    x + sprite_get_width(sprite_index)/2,
+    y + sprite_get_height(sprite_index)/2
+);
+
+/// --- Click detection to switch to "close"
+if (state == "afar" && hovered && mouse_check_button_pressed(mb_left)) {
+    state = "close";
+    // TODO: open dialogue box here later
+}
+
+/// --- Return to afar (simulate end of dialogue)
+if (state == "close" && keyboard_check_pressed(vk_escape)) {
+    state = "afar";
+}
