@@ -3,6 +3,8 @@ global.has_schematic = false;
 global.player_alive = true;
 global.journal = false;
 
+draw_set_font(font_dialogue);
+
 // Current room
 global.current_area = "boiler";
 load_area(global.current_area);
