@@ -16,5 +16,26 @@ function scr_apply_choice(_choice)
                 dialogue = new Dialogue();
             }
         break;
+	
+		case "Rich":
+
+    if (_choice == 1)
+    {
+        scr_rich_dialogue(1);
     }
+    else if (_choice == 2)
+    {
+        scr_rich_dialogue(2);
+    }
+    else if (_choice == 3)
+    {
+        active = false;
+        showing_dialogue = false;
+        dialogue = new Dialogue();
+    }
+
+break;
+
+
+	}
 }

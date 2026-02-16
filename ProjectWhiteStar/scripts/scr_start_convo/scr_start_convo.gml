@@ -22,5 +22,14 @@ function scr_start_convo(_npc)
 		showing_dialogue = false;
 		alpha = 0;
 	}
+	
+	 if (npc_name == "Rich") {
+		
+        scr_rich_dialogue(0);
+		
+		stage = 0;
+		showing_dialogue = false;
+		alpha = 0;
+	}
 }
 
