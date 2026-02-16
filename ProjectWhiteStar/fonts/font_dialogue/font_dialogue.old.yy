@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"font_dialoguewhite",
+  "%Name":"font_dialogue",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":15,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":21,
   "maintainGms1Font":false,
-  "name":"font_dialoguewhite",
+  "name":"font_dialogue",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
