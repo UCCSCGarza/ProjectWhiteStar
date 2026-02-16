@@ -1,4 +1,4 @@
-npc_name = "crazygirl";
+
 active = false;
 
 stage = 0;          // 0 = intro not shown yet, 1 = choices shown, 2 = responding, etc.

@@ -11,7 +11,15 @@ function scr_make_choice(_npc)
 			    "3": "Leave"
 
             };
-    }
-
-    return {}; // default if unknown npc
+			case "Rich":
+ 
+        return {
+            "1": "Ask about ship",
+            "2": "Ask about business",
+            "3": "Leave"
+        };
+     };
+	 return{};
 }
+
+

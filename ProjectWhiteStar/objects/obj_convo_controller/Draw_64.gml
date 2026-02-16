@@ -121,17 +121,32 @@ if (active && stage == 1)
     for (var c = 1; c <= 3; c++)
     {
         var key = string(c);
-        var label = variable_struct_get(choices, key);
+        var label = "";
 
-        if (c == selected_choice)
-        {
-            draw_set_color(c_yellow);
-            draw_text(base_x, base_y + (c - 1) * line_h, "> " + label);
-        }
-        else
-        {
-            draw_set_color(c_white);
-            draw_text(base_x, base_y + (c - 1) * line_h, "  " + label);
-        }
+if (variable_struct_exists(choices, key))
+{
+    label = variable_struct_get(choices, key);
+}
+else
+{
+    label = "";
+}
+
+
+ draw_set_font(fnt_big);
+
+if (c == selected_choice)
+{
+    draw_set_color(c_yellow);
+    draw_text(base_x, base_y + (c - 1) * line_h, "> " + label);
+}
+else
+{
+    draw_set_color(c_black);
+    draw_text(base_x, base_y + (c - 1) * line_h, "  " + label);
+}
+
+draw_set_font(-1); // reset after drawing
+
     }
 }
