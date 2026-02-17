@@ -13,11 +13,8 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Game Controllers","folderPath":"folders/Objects/Game Controllers.yy","name":"Game Controllers","resourceType":"GMFolder","resourceVersion":"2.0",},
-<<<<<<< HEAD
     {"$GMFolder":"","%Name":"Buttons","folderPath":"folders/Objects/Buttons.yy","name":"Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
-=======
     {"$GMFolder":"","%Name":"Conversations","folderPath":"folders/Objects/Game Controllers/Conversations.yy","name":"Conversations","resourceType":"GMFolder","resourceVersion":"2.0",},
->>>>>>> origin/cameron
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -76,11 +73,8 @@
     {"id":{"name":"scr_start_convo","path":"scripts/scr_start_convo/scr_start_convo.yy",},},
     {"id":{"name":"snd_mainmusic","path":"sounds/snd_mainmusic/snd_mainmusic.yy",},},
     {"id":{"name":"spr_boiler","path":"sprites/spr_boiler/spr_boiler.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
-=======
     {"id":{"name":"spr_captain_diologue","path":"sprites/spr_captain_diologue/spr_captain_diologue.yy",},},
->>>>>>> origin/cameron
     {"id":{"name":"spr_captain_quarters","path":"sprites/spr_captain_quarters/spr_captain_quarters.yy",},},
     {"id":{"name":"spr_Captain","path":"sprites/spr_Captain/spr_Captain.yy",},},
     {"id":{"name":"spr_CaptainAfar","path":"sprites/spr_CaptainAfar/spr_CaptainAfar.yy",},},
@@ -93,11 +87,8 @@
     {"id":{"name":"spr_EngineerAfar","path":"sprites/spr_EngineerAfar/spr_EngineerAfar.yy",},},
     {"id":{"name":"spr_hidden","path":"sprites/spr_hidden/spr_hidden.yy",},},
     {"id":{"name":"spr_Journal","path":"sprites/spr_Journal/spr_Journal.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
-=======
     {"id":{"name":"spr_loose","path":"sprites/spr_loose/spr_loose.yy",},},
->>>>>>> origin/cameron
     {"id":{"name":"spr_minimap_button","path":"sprites/spr_minimap_button/spr_minimap_button.yy",},},
     {"id":{"name":"spr_minimap_ship","path":"sprites/spr_minimap_ship/spr_minimap_ship.yy",},},
     {"id":{"name":"spr_not_win","path":"sprites/spr_not_win/spr_not_win.yy",},},
