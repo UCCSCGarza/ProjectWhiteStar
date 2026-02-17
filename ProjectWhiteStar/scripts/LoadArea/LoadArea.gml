@@ -95,7 +95,7 @@ if (global.jimmy_state >= 3)
 		
 		case "lose":
 			var bg6 = instance_create_layer(0, 0, "Backgrounds", obj_Background);
-            bg6.background_sprite = spr_not_win;
+            room_goto(rm_end)
 		break;
 		
 
