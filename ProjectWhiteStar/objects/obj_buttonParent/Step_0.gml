@@ -9,5 +9,8 @@ if (hovering && mouse_check_button_pressed(mb_left)) {
 	if(next_room == undefined)
 		game_end();
 	else
+		draw_set_font(font_dialogue);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_top);
 		room_goto(next_room);
 }
