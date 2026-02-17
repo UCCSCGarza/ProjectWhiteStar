@@ -27,7 +27,7 @@ function scr_rich_dialogue(_id)
         case 11:
             dialogue.add(spr_rich_diologue,
             "Actually...\nIf you insist on being useful,\nTake this bottle to my wife.\nShe's sulking below.\nAnd try not to drink it yourself.");
-            global.journal.bottle = true;
+            global.jimmy_state = 1;
         break;
     }
 }

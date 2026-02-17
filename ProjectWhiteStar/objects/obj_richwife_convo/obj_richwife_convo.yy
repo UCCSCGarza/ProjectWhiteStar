@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_richwife",
+  "%Name":"obj_richwife_convo",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_richwife",
+  "name":"obj_richwife_convo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Conversations",
+    "path":"folders/Objects/Game Controllers/Conversations.yy",
   },
   "parentObjectId":{
-    "name":"obj_AreaObject",
-    "path":"objects/obj_AreaObject/obj_AreaObject.yy",
+    "name":"obj_convo_controller",
+    "path":"objects/obj_convo_controller/obj_convo_controller.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_RichRitchTwoAfar",
-    "path":"sprites/spr_RichRitchTwoAfar/spr_RichRitchTwoAfar.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

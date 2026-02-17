@@ -3,6 +3,20 @@ global.has_schematic = false;
 global.player_alive = true;
 global.journal = false;
 
+//Adding a flag to see how many times you meet with npc
+global.rich_met = false;
+//Adding a flag to make sure you have bottle to give to "Jimmy"
+global.has_bottle = false;
+global.jimmy_trust = false;
+global.jimmy_state = 0;
+global.found_serial = false;
+global.viewing_plate = false;
+global.has_captain_key = false;
+global.jenny_state = 0;
+global.has_journal = false;
+global.engineer_met = false;
+global.has_schematic = false;
+global.captain_state = 0;
 // Current room
 global.current_area = "boiler";
 load_area(global.current_area);

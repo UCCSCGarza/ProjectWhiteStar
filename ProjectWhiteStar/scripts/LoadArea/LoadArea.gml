@@ -1,6 +1,9 @@
 function load_area(area_name)
 {
     global.current_area = area_name;
+	// Always close plate zoom when changing areas
+global.viewing_plate = false;
+
 	global.conversation = false;
 
     // Destroy old NPCs & interactables
@@ -18,7 +21,7 @@ function load_area(area_name)
         case "boiler":
             // Spawn background
             var bg1 = instance_create_layer(0, 0, "Backgrounds", obj_Background);
-            bg1.background_sprite = spr_boiler;
+            bg1.background_sprite = spr_win1;
 
             // Spawn NPC
             var npc1 = instance_create_depth(480, 340, npc_depth, obj_engineer);
@@ -27,6 +30,15 @@ function load_area(area_name)
             npc1.x_default  = 480;
             npc1.y_afar     = 340;
             npc1.y_close    = 360; // adjust as needed
+			//// SERIAL PLATE (clickable clue)
+// 🔥 SERIAL PLATE SPAWN (only after Jimmy tells you)
+if (global.jimmy_state >= 3)
+{
+    var plate = instance_create_depth(720, 420, npc_depth, obj_serial_plate);
+}
+
+
+			
         break;
 
         case "captain":
@@ -75,5 +87,7 @@ function load_area(area_name)
             npc5.y_afar     = 300;
             npc5.y_close    = 320;
         break;
+		
+
     }
 }

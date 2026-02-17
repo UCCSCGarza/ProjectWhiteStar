@@ -29,7 +29,7 @@ else
 
 if (active)
 {
-    // If we're not currently showing a dialogue box
+    // If not currently showing dialogue text
     if (!showing_dialogue)
     {
         // When dialogue queue is empty, move to choices
@@ -38,6 +38,9 @@ if (active)
             stage = 1;
         }
     }
+}
+
+    
 
     // If choices are showing
     if (stage == 1)
@@ -60,4 +63,3 @@ if (active)
             }
         }
     }
-}
