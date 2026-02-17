@@ -10,8 +10,8 @@
   "name":"obj_convo_controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Controllers",
-    "path":"folders/Objects/Game Controllers.yy",
+    "name":"Conversations",
+    "path":"folders/Objects/Game Controllers/Conversations.yy",
   },
   "parentObjectId":null,
   "persistent":false,

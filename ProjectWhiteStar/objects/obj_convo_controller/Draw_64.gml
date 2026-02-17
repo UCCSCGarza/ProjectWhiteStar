@@ -98,6 +98,9 @@ draw_set_alpha(1);
 /// ----------------------------------------------------
 /// Choices should appear under the box (when it's drawn),
 /// otherwise appear around mid-screen as a fallback.
+/// ----------------------------------------------------
+/// 2) CHOICES (only when active && stage == 1)
+/// ----------------------------------------------------
 if (active && stage == 1)
 {
     var base_x = box_left + 30;
@@ -116,22 +119,54 @@ if (active && stage == 1)
         base_y = (gui_h * 0.5) + 40;
     }
 
-    var line_h = 28;
+    var line_h = 34;
+
+    draw_set_font(fnt_big);
 
     for (var c = 1; c <= 3; c++)
     {
         var key = string(c);
-        var label = variable_struct_get(choices, key);
 
-        if (c == selected_choice)
-        {
-            draw_set_color(c_yellow);
-            draw_text(base_x, base_y + (c - 1) * line_h, "> " + label);
-        }
-        else
-        {
-            draw_set_color(c_white);
-            draw_text(base_x, base_y + (c - 1) * line_h, "  " + label);
-        }
+        // skip missing choices
+        if (!variable_struct_exists(choices, key)) continue;
+
+        var label = variable_struct_get(choices, key);
+        if (label == "") continue;
+
+        var tx = base_x;
+        var ty = base_y + (c - 1) * line_h;
+
+        var text_str;
+        if (c == selected_choice) text_str = "> " + label;
+        else                     text_str = "  " + label;
+
+        // measure
+        var tw = string_width(text_str);
+        var th = string_height(text_str);
+
+        // background padding
+        var pad_x = 14;
+        var pad_y = 8;
+
+        // dark panel behind text
+        draw_set_alpha(0.78);
+        draw_set_color(c_black);
+        draw_roundrect(tx - pad_x, ty - pad_y, tx + tw + pad_x, ty + th + pad_y, false);
+
+        // outline
+        draw_set_alpha(1);
+        draw_set_color(c_white);
+        draw_roundrect(tx - pad_x, ty - pad_y, tx + tw + pad_x, ty + th + pad_y, true);
+
+        // text color
+        if (c == selected_choice) draw_set_color(c_yellow);
+        else                     draw_set_color(c_blue);
+
+        draw_text(tx, ty, text_str);
     }
+
+    // reset
+    draw_set_font(-1);
+    draw_set_alpha(1);
+    draw_set_color(c_white);
 }

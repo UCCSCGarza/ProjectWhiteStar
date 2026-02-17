@@ -8,8 +8,8 @@
   "name":"obj_crazygirl_convo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Controllers",
-    "path":"folders/Objects/Game Controllers.yy",
+    "name":"Conversations",
+    "path":"folders/Objects/Game Controllers/Conversations.yy",
   },
   "parentObjectId":{
     "name":"obj_convo_controller",

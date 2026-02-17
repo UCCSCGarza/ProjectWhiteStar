@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_RichRitchOneAfar",
-    "path":"sprites/spr_RichRitchOneAfar/spr_RichRitchOneAfar.yy",
+    "name":"spr_RichRitchTwoAfar",
+    "path":"sprites/spr_RichRitchTwoAfar/spr_RichRitchTwoAfar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

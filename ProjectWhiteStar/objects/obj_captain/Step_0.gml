@@ -22,6 +22,8 @@ hovered = point_in_rectangle(
 if (state == "afar" && hovered && mouse_check_button_pressed(mb_left) && global.conversation == false) {
     state = "close";
 	global.conversation = true;
+instance_create_layer(0, 0, "Instances", obj_captain_convo)
+
 }
 
 /// --- Return to afar (simulate end of dialogue)
