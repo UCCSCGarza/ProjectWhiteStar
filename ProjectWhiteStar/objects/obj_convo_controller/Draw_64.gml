@@ -1,7 +1,5 @@
 /// DRAW GUI EVENT (obj_convo_controller)
-/// Centered dialogue box:
-/// - Width: middle 50% of screen (25% -> 75%)
-/// - Height: middle 50% of screen (25% -> 75%)
+
 
 /// ----------------------------------------------------
 /// 0) Setup (so choices can still place themselves)
