@@ -88,6 +88,16 @@ if (global.jimmy_state >= 3)
             npc5.y_close    = 320;
         break;
 		
+		case "win":
+			var bg5 = instance_create_layer(0, 0, "Backgrounds", obj_Background);
+            bg5.background_sprite = spr_win1;
+		break;
+		
+		case "lose":
+			var bg6 = instance_create_layer(0, 0, "Backgrounds", obj_Background);
+            bg6.background_sprite = spr_not_win;
+		break;
+		
 
     }
 }
