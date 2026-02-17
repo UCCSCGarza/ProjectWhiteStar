@@ -21,6 +21,7 @@ hovered = point_in_rectangle(
 /// --- Click detection to switch to "close"
 if (state == "afar" && hovered && mouse_check_button_pressed(mb_left) && global.conversation == false) {
     state = "close";
+	instance_create_layer(0, 0, "Instances", obj_engineer_convo)
 	global.conversation = true;
 }
 

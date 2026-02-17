@@ -2,4 +2,3 @@
 event_inherited();
 
 next_room = rm_help
-text = "Help"
